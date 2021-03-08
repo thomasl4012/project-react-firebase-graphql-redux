@@ -1,4 +1,4 @@
-import "./item-collection.scss";
+import "./item-collection.style.scss";
 
 import React from "react";
 
