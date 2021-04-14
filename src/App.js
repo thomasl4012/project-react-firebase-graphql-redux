@@ -8,11 +8,7 @@ import { auth, createUserProfilDocument } from "./firebase/firebase.utils";
 import React from "react";
 import { connect } from "react-redux";
 import { setCurrentUser } from "./redux/user/user.action";
-import SignIn from "./components/signin/signin.component";
 class App extends React.Component {
-  constructor() {
-    super();
-  }
   unsubscribeFromAuth = null;
 
   componentDidMount() {
